@@ -1,84 +1,279 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-  /* shared style */
-  .display-flex{
-    display: flex;
-  }
-  .button{
-    color: white;
-    padding: 10px 47px;
-    border-radius: 12px;
-    border: none;
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  .orange{
-    color: orange;
-  }
-  .sky-blue{
-    color: #01ACFD;
-  }
-  /* Nav-Related*/
-  .nav-div{
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 140px;
-  }
-  .logo-name{
-    align-items: center;
-  }
-  .logo-div{
-    margin-right: 11px;
-  }
-  .name{
-      font-weight: 700;
-      font-size: 2rem;
-  }
-  .links{
-    justify-content: space-between;
-    gap: 32px;
-  }
-  .p{
-    font-weight: 500;
-    font-size: 1.2rem;
-  }
-  #home{
-    font-weight: 700;
-    color: orange;
-  }
-  #about{
-    color: #01ACFD;
-  }
-  #facilities{
-    color: #05D4DF;
-  }
-  #admission{
-    color: #5D58EF;
-  }
-  .contact-btn{
-    background-color: orange;
-  }
-  /* banner-related */
-  .banner{
-    justify-content: space-between;
-    margin: 0 140px;
-  }
-  .banner-text-container{
-    margin: 122px 50px 122px 0;
-  }
-  .banner-bold-text{
-    font-size: 3.5rem;
-  }
-  .slogan{
-    font-weight: 400;
-    font-size: 1.3rem;
-  }
-  .enroll{
-    background-color: black;
-  }
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+/* shared style */
+
+
+.display-flex {
+  display: flex;
+}
+
+.button {
+  color: white;
+  padding: 10px 47px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.button:hover,
+.arrow button:hover {
+  background-color: #01ACFD;
+}
+
+.orange {
+  color: orange;
+}
+
+.sky-blue {
+  color: #01ACFD;
+}
+.white{
+  color: white;
+}
+
+.bg-img {
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/* Nav-Related*/
+
+
+
+
+
+.nav-div {
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 140px;
+}
+
+.logo-name {
+  align-items: center;
+}
+
+.logo-div {
+  margin-right: 11px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.links {
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#home {
+  font-weight: 700;
+  color: orange;
+}
+
+#about {
+  color: #01ACFD;
+}
+
+#facilities {
+  color: #05D4DF;
+}
+
+#admission {
+  color: #5D58EF;
+}
+
+.contact-btn {
+  background-color: orange;
+  transition: background-color 0.5s linear;
+}
+
+
+/* banner-related */
+
+
+
+
+.banner {
+  justify-content: space-between;
+  margin: 0 140px;
+}
+
+.banner-text-container {
+  margin: 122px 50px 122px 0;
+}
+
+.banner-bold-text {
+  font-size: 3.5rem;
+}
+
+.slogan {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.enroll,
+.view-btn {
+  background-color: black;
+  transition: background-color 0.5s linear;
+}
+
+
+
+/* Cards-Related */
+.standard-curriculum {
+  text-align: center;
+}
+
+.sc {
+  font-size: 3.85rem;
+  margin-bottom: 80px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 80px 140px;
+  gap: 28px;
+}
+
+.card1 {
+  width: 368px;
+  height: 476px;
+  border: 1px solid #DEF5FF;
+  border-radius: 19px;
+  padding: 52px 40px;
+  align-content: center;
+  background: linear-gradient(to bottom, #DEF5FF 0%, #fff 50%, #fff 100%);
+}
+
+.card2 {
+  width: 368px;
+  height: 476px;
+  border: 1px solid #FFF4DC;
+  border-radius: 19px;
+  padding: 52px 40px;
+  align-content: center;
+  background: linear-gradient(to bottom, #FFF4DC 0%, #fff 50%, #fff 100%);
+}
+
+.card3 {
+  width: 368px;
+  height: 476px;
+  border: 1px solid #F2E8FF;
+  border-radius: 19px;
+  padding: 52px 40px;
+  align-content: center;
+  background: linear-gradient(to bottom, #F2E8FF 0%, #fff 50%, #fff 100%);
+}
+
+.card-title {
+  font-size: 1.56rem;
+  font-weight: 700;
+}
+
+.card-btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 33px 132px 54px;
+}
+
+#read1 {
+  color: #64C8FF;
+}
+
+#read2 {
+  color: #F0AA00;
+}
+
+#read3 {
+  color: #8700FF;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.arrow button {
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 55%;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: background-color 1s ease-out;
+}
+
+/* stories section */
+.our-stories {
+  padding: 60px 140px;
+  text-align: center;
+  background-image: url(../assets/bg.png), linear-gradient(to top, rgb(254, 163, 1, 0.3) 0%, #fff 90%, #fff 100%);
+}
+
+.ourstories-head {
+  font-size: 2.875rem;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.image-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 80px;
+}
+
+.small-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* footer-related */
+
+.foot-h3{
+  font-weight: 700;
+  font-size: 1.63rem;
+}
+.footer{
+  background-color: #01ACFD;
+  padding: 140px 150px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.footer-link{
+  text-decoration: none;
+  gap: 20px;
+}
+.footer-icons{
+  gap: 10px;
+}
