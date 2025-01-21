@@ -18,6 +18,12 @@
     font-weight: 600;
     font-size: 1rem;
   }
+  .orange{
+    color: orange;
+  }
+  .sky-blue{
+    color: #01ACFD;
+  }
   /* Nav-Related*/
   .nav-div{
     justify-content: space-between;
@@ -47,7 +53,7 @@
     color: orange;
   }
   #about{
-    color: rgb(2, 82, 255);
+    color: #01ACFD;
   }
   #facilities{
     color: #05D4DF;
@@ -55,6 +61,24 @@
   #admission{
     color: #5D58EF;
   }
-  .btn{
+  .contact-btn{
     background-color: orange;
+  }
+  /* banner-related */
+  .banner{
+    justify-content: space-between;
+    margin: 0 140px;
+  }
+  .banner-text-container{
+    margin: 122px 50px 122px 0;
+  }
+  .banner-bold-text{
+    font-size: 3.5rem;
+  }
+  .slogan{
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  .enroll{
+    background-color: black;
   }
