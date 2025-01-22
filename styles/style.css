@@ -110,6 +110,9 @@ main {
   background-color: orange;
   transition: background-color 0.5s linear;
 }
+.mq-bar{
+  display: none;
+}
 
 
 /* banner-related */
@@ -341,14 +344,18 @@ main {
 @media screen and (max-width: 576px) {
 
 /* nav-related */
-.nav-div{
+.nav-div{border: 1px solid orange;
   margin: 20px auto;
   padding:12px 16px;
 }
 .nav-links,
 .nav-button,
-.name-div{
+#name-div-mq,
+.arrow{
   display: none;
+}
+.mq-bar{
+  display: block;
 }
 /* Banner-related */
 
