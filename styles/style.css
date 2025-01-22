@@ -462,7 +462,13 @@
   font-size: 1rem;
   font-weight: 700;
 }
-
+.date2,
+.date3,
+.date4,
+.date5{
+  margin-left: 1%;
+  transform:translateY(6rem);
+}
 
   /* footer-related */
   .footer{
