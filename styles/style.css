@@ -257,6 +257,61 @@
   grid-template-columns: repeat(2, 1fr);
   
 }
+.date1 {
+  background-color: #cc00c2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1%;
+  transform:translateY(20rem);
+  border-radius: 20px;
+}
+.date2 {
+  background-color: #00cc0a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1%;
+  transform:translateY(10rem);
+  border-radius: 20px;
+}
+.date3 {
+  background-color: #00c4cc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1%;
+  transform:translateY(10rem);
+  border-radius: 20px;
+}
+.date4 {
+  background-color: #000ecc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1%;
+  transform:translateY(10rem);
+  border-radius: 20px;
+}
+.date5 {
+  background-color: #cc4b00;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1%;
+  transform:translateY(10rem);
+  border-radius: 20px;
+}
 .wide-card{
   display: flex;
   flex-direction: column;
